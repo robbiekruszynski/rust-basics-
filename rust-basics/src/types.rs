@@ -30,5 +30,6 @@ pub fn run() {
 
     //char is always a single character and has single quotes
     let a1 = 'a';
-    println!("{:?}", (x, y, x, is_active, is_greater, a1));
+    let face = '\u{1F600}';
+    println!("{:?}", (x, y, x, is_active, is_greater, a1, face));
 }

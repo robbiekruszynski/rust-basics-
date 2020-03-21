@@ -1,6 +1,7 @@
-/Users/rfk/Desktop/rust-react/rust-basics/target/debug/deps/rust_basics-3250494cf0c13960: src/main.rs src/print.rs
+/Users/rfk/Desktop/rust-react/rust-basics/target/debug/deps/rust_basics-3250494cf0c13960: src/main.rs src/print.rs src/vars.rs
 
-/Users/rfk/Desktop/rust-react/rust-basics/target/debug/deps/rust_basics-3250494cf0c13960.d: src/main.rs src/print.rs
+/Users/rfk/Desktop/rust-react/rust-basics/target/debug/deps/rust_basics-3250494cf0c13960.d: src/main.rs src/print.rs src/vars.rs
 
 src/main.rs:
 src/print.rs:
+src/vars.rs:

@@ -1,3 +1,4 @@
+mod arrays;
 mod loops;
 mod print;
 mod strings;
@@ -11,6 +12,7 @@ fn main() {
     loops::run();
     strings::run();
     tuples::run();
+    arrays::run();
     //placeholder print
     println!("Number: {} ", 1);
 

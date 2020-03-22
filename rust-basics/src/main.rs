@@ -2,12 +2,13 @@ mod loops;
 mod print;
 mod types;
 mod vars;
-
+mod strings;
 fn main() {
     print::run();
     vars::run();
     types::run();
     loops::run();
+    strings::run();
     //placeholder print
     println!("Number: {} ", 1);
 

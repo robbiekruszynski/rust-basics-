@@ -1,14 +1,16 @@
 mod loops;
 mod print;
+mod strings;
+mod tuples;
 mod types;
 mod vars;
-mod strings;
 fn main() {
     print::run();
     vars::run();
     types::run();
     loops::run();
     strings::run();
+    tuples::run();
     //placeholder print
     println!("Number: {} ", 1);
 

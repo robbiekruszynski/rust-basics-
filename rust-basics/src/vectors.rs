@@ -33,4 +33,9 @@ pub fn run() {
     let slice: &[i32] = &numbers[0..2];
 
     println!("Slice: {:?}", slice);
+
+    // Loop through vector values
+    for x in numbers.iter() {
+        println!("Number: {}", x);
+    }
 }

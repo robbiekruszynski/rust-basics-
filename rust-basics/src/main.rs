@@ -7,13 +7,13 @@ mod types;
 mod vars;
 mod vectors;
 fn main() {
-    print::run();
-    vars::run();
-    types::run();
-    loops::run();
-    strings::run();
-    tuples::run();
-    arrays::run();
+    // print::run();
+    // vars::run();
+    // types::run();
+    // loops::run();
+    // strings::run();
+    // tuples::run();
+    // arrays::run();
     vectors::run();
     //placeholder print
     println!("Number: {} ", 1);

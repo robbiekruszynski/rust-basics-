@@ -27,7 +27,7 @@ pub fn run() {
 
     println!("Slice: {:?}", slice);
 
-    //Slice target will only print out 
+    //Slice target will only print out
     let slice: &[i32] = &numbers[0..2];
 
     println!("Slice: {:?}", slice);

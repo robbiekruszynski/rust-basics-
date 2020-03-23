@@ -7,6 +7,13 @@ pub fn run() {
     //re-assign a value
     numbers[2] = 20;
 
+    //add on to vector
+    numbers.push(6);
+    numbers.push(7);
+
+    //Dump the last value
+    numbers.pop();
+
     println!("{:?}", numbers);
     //Get Single value
     println!("Single value: {}", numbers[0]);
@@ -22,7 +29,7 @@ pub fn run() {
 
     println!("Slice: {:?}", slice);
 
-    //Slice target will only print out 
+    //Slice target will only print out
     let slice: &[i32] = &numbers[0..2];
 
     println!("Slice: {:?}", slice);

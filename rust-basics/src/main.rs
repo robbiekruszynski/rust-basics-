@@ -5,6 +5,7 @@ mod strings;
 mod tuples;
 mod types;
 mod vars;
+mod vectors;
 fn main() {
     print::run();
     vars::run();
@@ -13,6 +14,7 @@ fn main() {
     strings::run();
     tuples::run();
     arrays::run();
+    vectors::run();
     //placeholder print
     println!("Number: {} ", 1);
 

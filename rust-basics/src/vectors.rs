@@ -4,6 +4,7 @@ use std::mem;
 pub fn run() {
     let mut numbers: Vec<i32> = vec![1, 2, 3, 4, 5];
 
+    println!("hello matt");
     //re-assign a value
     numbers[2] = 20;
 
